@@ -14,3 +14,17 @@ cd huaque-qipai-ui
 克隆完成后，包括 `棋牌游戏平台-花雀.psd` 在内的所有 PSD、PNG、字体和原始 ZIP 都会直接出现在工作目录中。
 
 `restore-large-files.sh` 和 `.lfs-parts` 保留为大型 PSD 的备用无损恢复方式，正常克隆时不需要手动执行。
+
+---
+
+## 仓库导航（南北娱乐全平台）
+
+| 端 | 仓库地址 |
+| --- | --- |
+| 后端（Spring Boot / Java 21 / PostgreSQL） | https://github.com/xiehaibo11/huaque-qipai-backend |
+| 前端官网（Vue 3 / TypeScript / Vite） | https://github.com/xiehaibo11/huaque-qipai-frontend |
+| 安卓客户端（Android，架构对齐浙江游戏大厅） | https://github.com/xiehaibo11/huaque-qipai-android |
+| UI 设计源（PSD 源文件 / 生图方案，Git LFS） | https://github.com/xiehaibo11/huaque-qipai-ui |
+| 浙江游戏大厅逆向资料（原版设计证据） | https://github.com/xiehaibo11/zhejiang-game-hall |
+
+克隆任意一端后，按上表地址补齐其余仓库即可组成完整工作区；各仓库均为私有仓库，需要账号 xiehaibo11 授权访问。
